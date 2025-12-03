@@ -33,7 +33,9 @@ Cài thư viện:
         cd lms-backend
         npm install
 Chạy dự án:
-pm2 logs lms-backend
+
+ở trong thư mục backend
+pm2 start src/server.js --name lms-backend
 
 
 lms-Frontend:
